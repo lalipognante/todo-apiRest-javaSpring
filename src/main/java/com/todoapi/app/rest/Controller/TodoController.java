@@ -1,7 +1,7 @@
-package com.alienexplorer.app.rest.Controller;
+package com.todoapi.app.rest.Controller;
 
-import com.alienexplorer.app.rest.Model.Task;
-import com.alienexplorer.app.rest.Repository.TodoRepository;
+import com.todoapi.app.rest.Model.Task;
+import com.todoapi.app.rest.Repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class TodoController {
      @Autowired //instancia repo en la clase
-     private  TodoRepository todoRepository;
+     private TodoRepository todoRepository;
 
     @GetMapping(value = "/") // pagina principal
     public String holaMundo() {

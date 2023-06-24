@@ -1,4 +1,4 @@
-package com.alienexplorer.app.rest;
+package com.todoapi.app.rest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

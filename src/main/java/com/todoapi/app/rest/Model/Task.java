@@ -1,4 +1,4 @@
-package com.alienexplorer.app.rest.Model;
+package com.todoapi.app.rest.Model;
 
 import jakarta.persistence.*;
 

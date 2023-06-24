@@ -1,4 +1,4 @@
-package com.alienexplorer.app.rest;
+package com.todoapi.app.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
